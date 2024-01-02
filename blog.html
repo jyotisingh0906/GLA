@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLA University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/97fd9114ba.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+<nav>
+    <a href="index.html"><img src="./logo.png" alt=""></a>
+    <div class = "nav-links" id="nav-links">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<h1>Our Certificates And Online Programs for 2023</h1>
+    </section>
+<!---- blog page content-->
+<section class="blog-content">
+    <div class="row">
+    <div class="blog-left">
+     <img src="./certificate.jpg" alt="">
+     <h2>Our Certificates And Online Programs for 2023</h2>
+    <p>GLA University offers a diverse range of certificates and online programs designed to enhance professional skills and academic knowledge.Explore the convenience of online learning with GLA University's comprehensive suite of online programs, providing flexibility for learners to balance education with their busy schedules.</p>  
+<br>
+<p>Gain recognized credentials through GLA University's certificate programs, meticulously crafted to meet industry demands and academic standards.Elevate your career with specialized certificates from GLA University, equipping you with practical skills and knowledge for success in various fields.</p>
+<br>
+<p>Experience the convenience of online education at GLA University, where quality programs are delivered through a user-friendly online platform, fostering interactive and engaging learning experiences.</p>
+<br>
+<p>GLA University's commitment to excellence extends to its online programs, providing a flexible and accessible education model for students seeking a dynamic learning environment.Enrich your skill set with GLA University's online certificates, designed to meet the evolving needs of today's professional landscape.</p>
+<div class="comment-box">
+    <h3>Leave a comment</h3>
+    <form class="comment-form">
+        <input type="text" placeholder="Enter Name">
+        <input type="text" placeholder="Enter Email">
+        <textarea rows="5" placeholder="Your Comment"></textarea>
+        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+    </form>
+</div>
+</div>
+    <div class="blog-right">
+        <h3>Post Categories </h3>
+        <div>
+            <span>Bussiness Analytics</span>
+            <span>26</span>
+        </div>
+        <div>
+            <span>Machine learning</span>
+            <span>30</span>
+        </div>
+        <div>
+            <span>Data Science</span>
+            <span>28</span>
+        </div>
+        <div>
+            <span>Computer Science</span>
+            <span>49</span>
+        </div>
+        <div>
+            <span>AutoCAD</span>
+            <span>46</span>
+        </div>
+        <div>
+            <span>Commerce</span>
+            <span>30</span>
+        </div>
+        <div>
+            <span>Journalism</span>
+            <span>22</span>
+        </div>
+    </div>
+</div>
+</section>
+
+<!---- footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Established in 1991 by Shri Narayan Das Agrawal<br>GLA University has now become one of the best private universities in Uttar Pradesh.</p>
+     <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+     </div>
+     <p>Made <i class="fa-solid fa-graduation-cap"></i> BY JYOTI THAKUR</p>
+</section>
+
+    <!------JavaScript for toggle menu-->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right ="0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
